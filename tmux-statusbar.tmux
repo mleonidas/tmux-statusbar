@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # set statusbar to the top
-tmux set-option -g status-position top
+tmux set-option -g status-position bottom 
 
 # set left statusbar
 tmux set-option -g status-left 'tmux:[#S] '
